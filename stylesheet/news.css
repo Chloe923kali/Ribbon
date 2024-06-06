@@ -346,30 +346,7 @@ section {
     margin-top: 40px;
     background-image: url(../images/bg-home-about.svg);
 }
-/*
-.button-list {
-    width: 800px;
-    margin-bottom: 20px;
-    overflow: hidden;
-}
 
-input {
-    border: 0;
-    background-color: #DDB7AC;
-    color: #fff;
-    border-radius: 30px;
-    border: 1px #fff solid;
-    cursor: pointer;
-    font-size: 14px;
-    margin: 0 10px 20px;
-}
-
-input:hover {
-    color: #999B85;
-    background-color: #fff;
-    border: 1px #fff solid;
-}
-*/
 
 /* 消息列表------------------------------ */
 .news-list {
