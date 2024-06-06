@@ -1171,9 +1171,132 @@ section {
 
 }
 
+.mMainNotice {
+    width: 700px;
+    height: 180px;
+    overflow: hidden;
+    margin: 50px 0 2.75rem;
+    padding: 1.5rem 30px;
+    border-top: 1px solid #ebebeb;
+    background-color: rgba(240, 217, 209, 0.4);
+    border-radius: 20px;
+}
+
+
+
+.mMainNotice .rolling {
+    height: 95px;
+    overflow: hidden;
+
+}
+
+.mMainNotice .notice-list {
+    margin-top: 20px;
+    margin-left: 30px;
+    position: relative;
+}
+
+.mMainNotice ul {
+    margin: 0;
+    padding: 0;
+
+    animation: aniNotice 8s ease 1s infinite;
+    /* 設置動畫 */
+}
+
+/* 動畫關鍵幀 */
+@keyframes aniNotice {
+    0% {
+        transform: translateY(0);
+        /* 初始位置 */
+    }
+
+    28% {
+        transform: translateY(-25%);
+        /* 向上移動25% */
+    }
+
+    32% {
+        transform: translateY(-25%);
+        /* 保持位置 */
+    }
+
+    38% {
+        transform: translateY(-25%);
+        /* 保持位置 */
+    }
+
+    60% {
+        transform: translateY(-50%);
+        /* 向上移動50% */
+    }
+
+    66% {
+        transform: translateY(-50%);
+        /* 保持位置 */
+    }
+
+    72% {
+        transform: translateY(-50%);
+        /* 保持位置 */
+    }
+
+    88% {
+        transform: translateY(-75%);
+        /* 向上移動75% */
+    }
+
+    94% {
+        transform: translateY(-75%);
+        /* 保持位置 */
+    }
+
+    99% {
+        transform: translateY(-75%);
+        /* 保持位置 */
+    }
+
+    100% {
+        transform: translateY(-75%);
+        /* 保持位置 */
+    }
+}
+
+
+.mMainNotice ul li a {
+
+    display: inline-block;
+    max-width: 100%;
+
+    font-size: 16px;
+    letter-spacing: 5px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #7a7d61;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: top;
+
+}
+
+
+.mMainNotice .txtLink {
+    text-decoration: none;
+    color: #DDB7AC;
+    position: absolute;
+    right: 0;
+}
+
+.mMainNotice .gInner {
+    /* 設置內部容器的樣式 */
+    max-width: 87rem;
+}
+
 figure {
     flex: 1;
-    height: 400px;
+    height: 200px;
     /* 填充剩余空间 */
 }
 
@@ -1181,11 +1304,11 @@ figure {
     float: right;
     object-fit: cover;
     max-height: 470px;
-    width: 300px;
+    width: 200px;
 }
 
 /* 平板 */
-@media (max-width:820px) {
+/* @media (max-width:820px) {
     #news {
         height: 600px;
     }
@@ -1229,10 +1352,10 @@ figure {
         width: 400px;
         height: auto;
     }
-}
+} */
 
 /* 手機版 */
-@media (max-width:640px) {
+/* @media (max-width:640px) {
 
     #news .title {
         width: 340px;
@@ -1256,7 +1379,7 @@ figure {
     #news figure {
         display: none;
     }
-}
+} */
 
 /*FOOTER-------------------------------*/
 footer {
