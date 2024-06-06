@@ -361,6 +361,7 @@ section {
 
 .text-about {
     align-items: center;
+    width: 100%;
 }
 
 .text-about h3 {
@@ -373,7 +374,7 @@ section {
 .text-about nav {
     margin: 40px 0;
     width: 100%;
-    height: 150px;
+    height: 180px;
 }
 
 .text-about div {
@@ -506,7 +507,7 @@ dd {
     text-align: center;
     /* 水平居中内容 */
     width: 100%;
-    height: 150px;
+    height: 180px;
 }
 
 .wantted nav img {
