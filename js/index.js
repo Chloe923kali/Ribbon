@@ -6,14 +6,6 @@ $(function () {
         $('.navigation').toggleClass('show');
     });
 
-    //文字輪播
-    $('.slideText').textslider({
-        // 捲動方向
-        direction: 'scrollDown', // 捲動方向: scrollUp向上, scrollDown向下
-        scrollNum: 5, // 一次捲動幾個<li>
-        scrollSpeed: 800, // 捲動速度(ms)
-        pause: 1000  // 停頓時間(ms)
-    });
 
 
     // 滑動到指定位置
