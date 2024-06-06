@@ -321,7 +321,7 @@ section {
 
 /*BANNER區-------------------------------*/
 #banner {
-    background-image: url(/images/banner-recruit.jpg);
+    background-image: url(../images/banner-recruit.jpg);
     height: 100vh;
     overflow: hidden;
     display: flex;

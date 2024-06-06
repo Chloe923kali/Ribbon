@@ -308,7 +308,7 @@ section {
 
 /*BANNER區-------------------------------*/
 #banner {
-    background-image: url(/images/banner-macaron.jpg);
+    background-image: url(../images/banner-macaron.jpg);
     height: 100vh;
     overflow: hidden;
     display: flex;
