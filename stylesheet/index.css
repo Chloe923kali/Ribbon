@@ -1154,9 +1154,9 @@ section {
     /* 水平居中 */
     align-items: center;
     /* 垂直居中 */
-    height: 400px;
+    height: 250px;
     /* 可以根据实际情况调整高度 */
-    width: 360px;
+    width: 280px;
     text-align: center;
     color: #999B85;
 }
@@ -1168,8 +1168,9 @@ section {
 
 #news .title h3 {
     font-size: 1.5rem;
-
+    
 }
+
 
 .mMainNotice {
     width: 700px;
