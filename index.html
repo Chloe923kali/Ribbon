@@ -48,6 +48,11 @@
         <section id="banner">
             <video src="./video/video-loop.webm" autoplay muted loop></video>
             <img src="./images/LOGO-banner.svg" alt="Banner Title" id="banner-title">
+            <div class="scroll-downs">
+                <div class="mousey">
+                    <div class="scroller"></div>
+                </div>
+            </div>
         </section>
 
         <section id="about">
@@ -251,10 +256,10 @@
     <script>
         $(function () {
             $(".slideText").textslider({
-            direction: 'scrollDown', // 捲動方向: scrollUp向上, scrollDown向下
-            scrollNum: 5, // 一次捲動幾個<li>
-            scrollSpeed: 1200, // 捲動速度(ms)
-            pause: 50 // 停頓時間(ms)
+                direction: 'scrollDown', // 捲動方向: scrollUp向上, scrollDown向下
+                scrollNum: 5, // 一次捲動幾個<li>
+                scrollSpeed: 1200, // 捲動速度(ms)
+                pause: 50 // 停頓時間(ms)
             });
         });
     </script>

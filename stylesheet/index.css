@@ -254,7 +254,7 @@ a {
     display: block;
 }
 
-.btn li:hover a{
+.btn li:hover a {
     color: #999B85;
 }
 
@@ -324,7 +324,7 @@ a {
         margin-left: 15px;
     }
 
-    .nav-box{
+    .nav-box {
         width: 200px;
     }
 
@@ -400,9 +400,11 @@ a {
         padding: 5px;
         border-radius: 50px 0 0 50px;
     }
+
     .navigation .btn {
         margin-top: 100px;
     }
+
     .navigation .icon {
         margin-top: 5px;
         margin-left: 30px;
@@ -429,9 +431,11 @@ a {
     .hamburger.is-active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
-    .nav-box{
+
+    .nav-box {
         width: 150px;
     }
+
     .navigation .btn {
         margin-top: 40px;
     }
@@ -468,7 +472,6 @@ section {
     height: 100%;
 }
 
-
 #banner-title {
     position: absolute;
     top: 50%;
@@ -481,6 +484,50 @@ section {
 }
 
 
+.scroll-downs {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 60px;
+    width: 34px;
+    height: 55px;
+}
+
+.mousey {
+    width: 3px;
+    padding: 10px 15px;
+    height: 35px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    opacity: 0.85;
+    box-sizing: content-box;
+}
+
+.scroller {
+    width: 3px;
+    height: 10px;
+    border-radius: 25%;
+    background-color: #fff;
+    animation-name: scroll;
+    animation-duration: 2.2s;
+    animation-timing-function: cubic-bezier(.15, .41, .69, .94);
+    animation-iteration-count: infinite;
+}
+
+@keyframes scroll {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(15px);
+        opacity: 0;
+    }
+}
 
 
 /*關於我們ABOUT-------------------------------*/
@@ -841,8 +888,10 @@ section {
     }
 
     .top-about {
-        height: auto; /* 调整高度为 auto，以适应内容 */
-        margin: 0; /* 确保没有间距 */
+        height: auto;
+        /* 调整高度为 auto，以适应内容 */
+        margin: 0;
+        /* 确保没有间距 */
     }
 
     #content-top1,
@@ -867,10 +916,11 @@ section {
         margin: 0;
     }
 
-    .product-txt video{
+    .product-txt video {
         height: 300px;
     }
-    .text-box{
+
+    .text-box {
         margin: 70px auto;
         width: auto;
     }
@@ -960,7 +1010,7 @@ section {
     color: white;
 }
 
-#event .container{
+#event .container {
     margin-top: 85px;
     width: 100%;
     height: 310px;
@@ -1118,7 +1168,7 @@ section {
 
 #news .title h3 {
     font-size: 1.5rem;
-    
+
 }
 
 figure {
@@ -1167,7 +1217,7 @@ figure {
     }
 
     #news figure {
-        margin-top:50px;
+        margin-top: 50px;
         position: absolute;
         right: 0;
         z-index: -99;
@@ -1184,9 +1234,10 @@ figure {
 /* 手機版 */
 @media (max-width:640px) {
 
-    #news .title{
+    #news .title {
         width: 340px;
     }
+
     .slideText {
         height: 300px;
         margin-right: 0px;
