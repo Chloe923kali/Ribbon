@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ribbon's Store</title>
+    <!-- 手動設定favicon -->
+    <link rel="icon" href="./favicon.ico">
+    <link rel="stylesheet" href="./stylesheet/store.css">
+</head>
+
+<body>
+    <header class="sidebar">
+        <!-- LOGO -->
+        <h1 class="logo">
+            <a href="index.html"><img src="./images/LOGO.svg" alt="Ribbon'macaron LOGO"></a>
+        </h1>
+        <!-- 主選單區 -->
+        <nav id="menu">
+            <ul class="btn">
+                <li><a href="news.html">最新消息<br>News</a></li>
+                <li><a href="macaron.html">馬卡龍口味<br>Macaron</a></li>
+                <li><a href="recruit.html">徵才資訊<br>Recruit</a></li>
+                <li><a href="store.html">分店據點<br>Store</a></li>
+                <li><a href="feedback.html">回饋意見<br>Feedback</a></li>
+            </ul>
+            <ul class="icon">
+                <li><a href="https://www.facebook.com/keli.wu/?locale=zh_TW" class="icon-fb"></a></li>
+                <li><a href="https://www.instagram.com/kakakalibaba/" class="icon-ig"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="banner">
+            <div class="title">
+                <h1 class="cormorant-garamond-regular">Store</h1>
+                <h5 class="noto-serif-tc-medium">分店據點</h5>
+            </div>
+        </section>
+
+        <!-- 主要內容區 -->
+        <section id="container">
+            <div class="filter">
+                <div class="button-list">
+                    <input type="button" value="北部分店" name="北部分店" onclick="showStoreContent(this, 'north')">
+                    <input type="button" value="中部分店" name="中部分店" onclick="showStoreContent(this, 'central')">
+                    <input type="button" value="南部分店" name="南部分店" onclick="showStoreContent(this, 'south')">
+                </div>
+                <div class="divider"></div>
+
+                <div id="northContent" class="content active">
+                    <div class="store">
+                        <div class="col">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14459.994326708158!2d121.54599675541995!3d25.034122200000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abb6da80a7ad%3A0xacc4d11dc963103c!2z5Y-w5YyXMTAx6LO854mp5Lit5b-D!5e0!3m2!1szh-TW!2stw!4v1715060677048!5m2!1szh-TW!2stw"
+                                width="375" height="246" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <address class="col">
+                            <h2>台北信義旗艦店</h2>
+                            <h3 class="cormorant-garamond-regular">Taipei Xinyi flagship store</h3>
+                            <p>營業時間: 11:00 - 20:00 , 無公休</p>
+                            <p>地址 : 110台北市信義區市府路45 號</p>
+                            <p>電話 : (02)2200 - 7777</p>
+                        </address>
+                    </div>
+                    <div class="store">
+                        <div class="col">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14462.355358742838!2d121.44887918273834!3d25.014083406707826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a81eef069bf7%3A0xcd9504020d005103!2z5p2_5qmL5aSn6YGg55m-!5e0!3m2!1szh-TW!2stw!4v1715060899178!5m2!1szh-TW!2stw"
+                                width="375" height="246" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <address class="col">
+                            <h2>板橋大遠百</h2>
+                            <h3 class="cormorant-garamond-regular">Banqiao Mega City store</h3>
+                            <p>營業時間: 11:00 - 20:00 , 無公休</p>
+                            <p>地址 : 220新北市板橋區新站路28號</p>
+                            <p>電話 : (02)7705-4168</p>
+                        </address>
+                    </div>
+                    <div class="store">
+                        <div class="col">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1070.1556132450128!2d121.556975681516!3d25.083351529968155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442adece0e04091%3A0xebc9814b6d9bcd1!2zTWlyYW1hcue-jum6l-iPr-eZvuaoguWckg!5e0!3m2!1szh-TW!2stw!4v1715061016160!5m2!1szh-TW!2stw"
+                                width="375" height="246" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <address class="col">
+                            <h2>大直美麗華店</h2>
+                            <h3 class="cormorant-garamond-regular">Dazhi Miramar store</h3>
+                            <p>營業時間: 11:00 - 20:00 , 無公休</p>
+                            <p>地址 : 104台北市中山區敬業三路20號</p>
+                            <p>電話 : (02)2175-3456</p>
+                        </address>
+                    </div>
+                </div>
+
+                <div id="centralContent" class="content">
+                    <div class="store">
+                        <div class="col">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4401.410871756928!2d120.65931617956548!3d24.144797761222847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693da1c910ce65%3A0xb84b980999235c45!2z5a-p6KiI5paw5p2R!5e0!3m2!1szh-TW!2stw!4v1716793553925!5m2!1szh-TW!2stw"
+                                width="375" height="246" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <address class="col">
+                            <h2>審計新村店</h2>
+                            <h3 class="cormorant-garamond-regular ">Shen Ji New Village Store</h3>
+                            <p>營業時間: 11:00 - 18:00 , 無公休</p>
+                            <p>地址 : 403台中市西區民生路368巷4弄8號</p>
+                            <p>電話:(04)2302-3138</p>
+                        </address>
+                    </div>
+                    <div class="store">
+                        <div class="col">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3641.0248743086586!2d120.68988087469256!3d24.135764573874113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693d71482ef0b3%3A0x4955c6dbae8d71e7!2sMitsui%20Shopping%20Park%20LaLaport%20%E5%8F%B0%E4%B8%AD!5e0!3m2!1szh-TW!2stw!4v1716794487890!5m2!1szh-TW!2stw"
+                                width="375" height="246" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <address class="col">
+                            <h2>台中Lalaport店</h2>
+                            <h3 class="cormorant-garamond-regular ">Mitsui Shopping Park LaLaport Store</h3>
+                            <p>營業時間: 11:00 - 20:00 , 無公休</p>
+                            <p>地址 : 401台中市東區進德路600號</p>
+                            <p>電話 : (04)22156991</p>
+                        </address>
+                    </div>
+                    <div class="store">
+                        <div class="col">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2274.503599120027!2d120.63995220390797!3d24.16761459583981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693df3fafff12d%3A0x154f59fcfc5ebfa4!2z56eL57SF6LC35pmv6KeA55Sf5oWL5YWs5ZyS!5e0!3m2!1szh-TW!2stw!4v1716794451174!5m2!1szh-TW!2stw"
+                                width="375" height="246" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <address class="col">
+                            <h2>台中秋紅谷店</h2>
+                            <h3 class="cormorant-garamond-regular ">Maple Garden Store</h3>
+                            <p>營業時間: 11:00 - 20:00 , 無公休</p>
+                            <p>地址 : 407台中市西屯區朝富路30號</p>
+                            <p>電話 : (04)2228-9111</p>
+                        </address>
+                    </div>
+                </div>
+
+                <div id="southContent" class="content">
+                    <div class="store">
+                        <div class="col">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.425117436723!2d120.22345187465542!3d22.934565719607917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e747aaaaaaaab%3A0xa88c13e665c7f4a6!2z5aWH576O5Y2a54mp6aSo!5e0!3m2!1szh-TW!2stw!4v1716794753442!5m2!1szh-TW!2stw"
+                                width="375" height="246" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <address class="col">
+                            <h2>奇美博物館店</h2>
+                            <h3 class="cormorant-garamond-regular ">CHIMEI Museum Store</h3>
+                            <p>營業時間: 10:00 - 17:00 , 週三公休</p>
+                            <p>地址 : 717台南市仁德區文華路二段66號</p>
+                            <p>電話 : (06)2660-808</p>
+                        </address>
+                    </div>
+                    <div class="store">
+                        <div class="col">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3682.905997240866!2d120.27895377464596!3d22.61998523123313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e047620e1c45b%3A0xe6d6d1bd1c764df2!2z6aeB5LqM6Jed6KGT54m55Y2A!5e0!3m2!1szh-TW!2stw!4v1716796503596!5m2!1szh-TW!2stw"
+                                width="375" height="246" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <address class="col">
+                            <h2>駁二藝術特區店</h2>
+                            <h3 class="cormorant-garamond-regular ">The Pier-2 Art Center Store</h3>
+                            <p>營業時間: 11:00 - 18:00 , 無公休</p>
+                            <p>地址 : 803高雄市鹽埕區大勇路1號</p>
+                            <p>電話 : (07)5214-899</p>
+                        </address>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-wrap">
+            <h1>
+                <a href="index.html"><img src="./images/LOGO.svg" alt="Ribbon'macaron LOGO"></a>
+            </h1>
+            <div class="footer-text">
+                <p>總店電話 ：(02) 2202 - 7777</p>
+                <p>總店信箱 ：ribbon_macaron@gmail.com</p>
+                <a href="feedback.html">聯絡我們</a>
+            </div>
+        </div>
+        <small>© Ribbon Macaron 2024 copyright</small>
+        <div id="gotop"><img src="./images/gotop.svg" alt=""></div>
+    </footer>
+
+    <!-- jQuery主程式 -->
+    <script src="./js/jquery-1.11.3.min.js"></script>
+    <!-- JQuert smoove -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smoove/0.2.10/jquery.smoove.min.js"></script>
+    <!-- gotop -->
+    <script src="./js/gotop.js"></script>
+    <!-- smoove -->
+    <script src="./js/smoove.js"></script>
+    <script>
+        // JavaScript 函數來顯示相應的內容
+        function showStoreContent(button, content) {
+            // 隱藏所有內容
+            var contents = document.getElementsByClassName("content");
+            for (var i = 0; i < contents.length; i++) {
+                contents[i].classList.remove("active");
+            }
+            // 顯示選中的內容
+            document.getElementById(content + "Content").classList.add("active");
+
+            // 重置所有按鈕的樣式
+            var buttons = document.querySelectorAll("input[type='button']");
+            for (var i = 0; i < buttons.length; i++) {
+                buttons[i].classList.remove("active-button");
+            }
+            // 設置選中按鈕的樣式
+            button.classList.add("active-button");
+        }
+
+        // 頁面載入時自動顯示北部分店的內容
+        document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById("northContent").classList.add("active");
+            document.querySelector("input[value='北部分店']").classList.add("active-button");
+        });
+    </script>
+</body>
+
+</html>

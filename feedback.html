@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ribbon's Feedback</title>
+    <!-- 手動設定favicon -->
+    <link rel="icon" href="./favicon.ico">
+    <link rel="stylesheet" href="./stylesheet/feedback.css">
+</head>
+
+<body>
+    <header class="sidebar">
+        <!-- LOGO -->
+        <h1 class="logo">
+            <a href="index.html"><img src="./images/LOGO.svg" alt="Ribbon'macaron LOGO"></a>
+        </h1>
+        <!-- 主選單區 -->
+        <nav id="menu">
+            <ul class="btn">
+                <li><a href="news.html">最新消息<br>News</a></li>
+                <li><a href="macaron.html">馬卡龍口味<br>Macaron</a></li>
+                <li><a href="recruit.html">徵才資訊<br>Recruit</a></li>
+                <li><a href="store.html">分店據點<br>Store</a></li>
+                <li><a href="feedback.html">回饋意見<br>Feedback</a></li>
+            </ul>
+            <ul class="icon">
+                <li><a href="https://www.facebook.com/keli.wu/?locale=zh_TW" class="icon-fb"></a></li>
+                <li><a href="https://www.instagram.com/kakakalibaba/" class="icon-ig"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="banner">
+            <div class="title">
+                <h1 class="cormorant-garamond-regular">Feedback</h1>
+                <h5 class="noto-serif-tc-medium">回饋意見</h5>
+            </div>
+        </section>
+
+        <!-- 主要內容區 -->
+        <section id="contact">
+            <header class="title smoove">
+                <h2 class="noto-serif-tc-regular">歡迎回饋或詢問</h2>
+                <h3 class="cormorant-garamond-regular">
+                    Welcome to share your feedback and inquiries.
+                </h3>
+            </header>
+            <form action="" method="post" name="form__contact" id="form__contact" class="smoove" title="聯絡我們">
+
+                <small>『*』為必填欄位。</small>
+
+                <label for="username">*姓名：</label>
+                <input type="text" name="username" id="username" title="請輸入姓名" placeholder="請輸入姓名" required>
+                <label for="tel">聯絡電話：</label>
+                <input type="tel" name="tel" id="tel" title="請輸入聯絡電話" placeholder="請輸入聯絡電話" maxlength="10">
+                <label for="email">*電子郵件：</label>
+                <input type="email" name="email" id="email" title="請輸入電子郵件" placeholder="請輸入電子郵件" required>
+                <label for="massage">留言回饋：</label>
+                <textarea name="massage" id="massage" rows="5"></textarea>
+
+                <small>此表單為練習作品，不具有蒐集資料的實際功能，<br>且不具有商業行為。非正式網站。</small>
+                <br>
+                <button>
+                    <span class="font-noto-sans">送出</span>
+                </button>
+            </form>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-wrap">
+            <h1>
+                <a href="index.html"><img src="./images/LOGO.svg" alt="Ribbon'macaron LOGO"></a>
+            </h1>
+            <div class="footer-text">
+                <p>總店電話 ：(02) 2202 - 7777</p>
+                <p>總店信箱 ：ribbon_macaron@gmail.com</p>
+                <a href="feedback.html">聯絡我們</a>
+            </div>
+        </div>
+        <small>© Ribbon Macaron 2024 copyright</small>
+        <div id="gotop"><img src="./images/gotop.svg" alt=""></div>
+    </footer>
+
+
+    <!-- jQuery主程式 -->
+    <script src="./js/jquery-1.11.3.min.js"></script>
+    <!-- JQuert smoove -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smoove/0.2.10/jquery.smoove.min.js"></script>
+    <!-- gotop -->
+    <script src="./js/gotop.js"></script>
+    <!-- smoove -->
+    <script src="./js/smoove.js"></script>
+</body>
+</body>
+
+</html>

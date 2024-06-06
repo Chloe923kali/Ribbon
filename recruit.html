@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ribbon's Recruit</title>
+    <!-- 手動設定favicon -->
+    <link rel="icon" href="./favicon.ico">
+    <link rel="stylesheet" href="./stylesheet/recruit.css">
+</head>
+
+<body>
+    <header class="sidebar">
+        <!-- LOGO -->
+        <h1 class="logo">
+            <a href="index.html"><img src="./images/LOGO.svg" alt="Ribbon'macaron LOGO"></a>
+        </h1>
+        <!-- 主選單區 -->
+        <nav id="menu">
+            <ul class="btn">
+                <li><a href="news.html">最新消息<br>News</a></li>
+                <li><a href="macaron.html">馬卡龍口味<br>Macaron</a></li>
+                <li><a href="recruit.html">徵才資訊<br>Recruit</a></li>
+                <li><a href="store.html">分店據點<br>Store</a></li>
+                <li><a href="feedback.html">回饋意見<br>Feedback</a></li>
+            </ul>
+            <ul class="icon">
+                <li><a href="https://www.facebook.com/keli.wu/?locale=zh_TW" class="icon-fb"></a></li>
+                <li><a href="https://www.instagram.com/kakakalibaba/" class="icon-ig"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="banner">
+            <div class="title">
+                <h1 class="cormorant-garamond-regular">Recruit</h1>
+                <h5 class="noto-serif-tc-medium">徵才資訊</h5>
+            </div>
+        </section>
+
+        <!-- 主要內容區 -->
+        <section id="container">
+            <div class="text-about smoove">
+                <h3>『 繽粉甜蜜的背後 ，是我們一心一意的投入』</h3>
+                <nav><img src="./images/recruit-bg01.png" alt=""></nav>
+                <div>
+                    <p>歡迎加入我們的馬卡龍專賣店團隊！我們追求烘焙藝術，注重創意和熱情。
+                        在這裡，我們致力於創造甜蜜的體驗，讓顧客享受色彩和口感的完美結合。
+                        如果你對烘焙充滿熱情，歡迎加入我們，一同打造美味和幸福！</p>
+                </div>
+            </div>
+            <div class="main-text smoove">
+                <h2>職缺項目</h2>
+                <h4>Opening</h4>
+                <nav>
+                    <button class="baker-button" onclick="showContent(this, 'baker')">烘焙師</button>
+                    <button class="sales-button" onclick="showContent(this, 'sales')">銷售人員</button>
+                </nav>
+                <div id="bakerContent" class="content">
+                    <div class="job-item">
+                        <dl>
+                            <dt>工作職稱</dt>
+                            <dd>甜點烘培師</dd>
+                        </dl>
+                    </div>
+                    <div class="job-item">
+                        <dl>
+                            <dt>需求人數</dt>
+                            <dd>1~2 位</dd>
+                        </dl>
+                    </div>
+                    <div class="job-item">
+                        <dl>
+                            <dt>工作性質</dt>
+                            <dd>全職</dd>
+                        </dl>
+                    </div>
+                    <div class="job-item">
+                        <dl>
+                            <dt>工作地點</dt>
+                            <dd>信義旗艦店</dd>
+                        </dl>
+                    </div>
+                    <div class="job-item">
+                        <dl>
+                            <dt>工作內容</dt>
+                            <dd>1.馬卡龍產品製作<br>2.新品研發<br>3.烘焙器具清潔與維護</dd>
+                        </dl>
+                    </div>
+                    <div class="job-item">
+                        <dl>
+                            <dt>薪資待遇</dt>
+                            <dd>38,000 ~ 42,000</dd>
+                        </dl>
+                    </div>
+                    <div class="job-item">
+                        <dl>
+                            <dt>福利制度</dt>
+                            <dd>1.年終獎金保障1個月<br>2.三節獎金<br>3.員工旅遊<br>4.定期體檢</dd>
+                        </dl>
+                    </div>
+                </div>
+                <div id="salesContent" class="content">
+                    <div class="job-item">
+                        <dl>
+                            <dt>工作職稱</dt>
+                            <dd>銷售人員</dd>
+                        </dl>
+                    </div>
+                    <div class="job-item">
+                        <dl>
+                            <dt>需求人數</dt>
+                            <dd>2~3 位</dd>
+                        </dl>
+                    </div>
+                    <div class="job-item">
+                        <dl>
+                            <dt>工作性質</dt>
+                            <dd>全職</dd>
+                        </dl>
+                    </div>
+                    <div class="job-item">
+                        <dl>
+                            <dt>工作地點</dt>
+                            <dd>板橋遠百店、大直美麗華店</dd>
+                        </dl>
+                    </div>
+                    <div class="job-item">
+                        <dl>
+                            <dt>工作內容</dt>
+                            <dd>1.門市收銀、介紹產品<br>2.陳列商品、維持店面整潔</dd>
+                        </dl>
+                    </div>
+                    <div class="job-item">
+                        <dl>
+                            <dt>薪資待遇</dt>
+                            <dd>32,000 ~ 38,000</dd>
+                        </dl>
+                    </div>
+                    <div class="job-item">
+                        <dl>
+                            <dt>福利制度</dt>
+                            <dd>1.年終獎金保障1個月<br>2.三節獎金<br>3.員工旅遊<br>4.定期體檢</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="wantted ">
+                <nav>
+                    <img src="./images/recruit-bg02.jpg" alt="Your Image">
+                    <button class="smoove">我要應徵</button>
+                </nav>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-wrap">
+            <h1>
+                <a href="index.html"><img src="./images/LOGO.svg" alt="Ribbon'macaron LOGO"></a>
+            </h1>
+            <div class="footer-text">
+                <p>總店電話 ：(02) 2202 - 7777</p>
+                <p>總店信箱 ：ribbon_macaron@gmail.com</p>
+                <a href="feedback.html">聯絡我們</a>
+            </div>
+        </div>
+        <small>© Ribbon Macaron 2024 copyright</small>
+        <div id="gotop"><img src="./images/gotop.svg" alt=""></div>
+    </footer>
+
+
+    <!-- jQuery主程式 -->
+    <script src="./js/jquery-1.11.3.min.js"></script>
+    <!-- JQuert smoove -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smoove/0.2.10/jquery.smoove.min.js"></script>
+    <!-- gotop -->
+    <script src="./js/gotop.js"></script>
+    <!-- smoove -->
+    <script src="./js/smoove.js"></script>
+    <script>
+
+        // JavaScript 函數來顯示相應的內容
+        function showContent(button, content) {
+            // 隱藏所有內容
+            var contents = document.getElementsByClassName("content");
+            for (var i = 0; i < contents.length; i++) {
+                contents[i].classList.remove("active");
+            }
+            // 顯示選中的內容
+            document.getElementById(content + "Content").classList.add("active");
+
+            // 重置所有按鈕的樣式
+            var buttons = document.querySelectorAll("nav button");
+            for (var i = 0; i < buttons.length; i++) {
+                buttons[i].classList.remove("active-button");
+            }
+            // 設置選中按鈕的樣式
+            button.classList.add("active-button");
+        }
+
+        // 頁面載入時自動顯示銷售人員的內容
+        document.addEventListener("DOMContentLoaded", function () {
+            document.getElementById("salesContent").classList.add("active");
+            document.querySelector(".sales-button").classList.add("active-button");
+        });
+    </script>
+    </script>
+</body>
+
+
+</html>
