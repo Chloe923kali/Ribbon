@@ -532,7 +532,7 @@ section {
 
 /*關於我們ABOUT-------------------------------*/
 #about {
-    background-image: url(../images/bg-home-about.svg);
+    background-image: url(../images/bg-home-about-line.svg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
